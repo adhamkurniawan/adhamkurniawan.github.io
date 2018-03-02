@@ -13,26 +13,50 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*Header*/
+.navbar-blue {
+  background: #3498db;
+  color: white;
+}
+.navbar-blue .navbar-nav > li > a {
+  color: white;
+}
+.navbar-blue .navbar-nav > li > a:hover {
+  color: #ddd;
+  background: none
+}
+.navbar-brand {
+  color: white;
+}
+.navbar-brand:hover {
+  color: #ddd;
+}
+.navbar-toggle {
+  background-color: white;
+  border: #ddd;
+}
+.navbar-toggle .icon-bar {
+  background-color: #777;
+}
 .navbar-default .navbar-nav>li>a {
-color: #777;
-text-transform: uppercase;
+  color: #777;
+  text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
 }
-header{
-	background: url(../images/header_bg.jpg);
+header {
+	background: url(../images/header_bg_2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-.section_overlay{
+.section_overlay {
 	background: rgba(250,250,250, .5);
 }
-.home_text{
+.home_text {
 	padding-top: 210px;
 	padding-bottom: 210px;
 }
-.home_text h2{
+.home_text h2 {
 	color: #010101;
 	font-size: 40px;
 	text-transform: uppercase;
@@ -68,7 +92,8 @@ header{
 }
 .single_service i{
 	font-size: 25px;
-	color: #f73b56;
+	/*color: #f73b56;*/
+  color: #3498db;
 }
 .single_service h2{
 	color: #000000;
@@ -396,7 +421,7 @@ footer{
 .footer_logo{}
 .footer_logo img{}
 .social{
-	padding-top: 65px;
+	/*padding-top: 65px;*/
 }
 .social h2{
 text-transform: uppercase;
@@ -417,6 +442,7 @@ padding-right: 3px;
 ul.icon_list li a{
 display: inline-block;
 color: #636363;
+/*color: #3498db;*/
 border: 1px solid #636363;
 border-radius: 50%;
 text-align: center;
@@ -427,8 +453,9 @@ line-height: 28px;
 transition: all 1s;
 }
 ul.icon_list li a:hover{
-	color: #f73b56;
-	border-color:#f73b56; 
+	color: #3498db;
+	/*border-color:#f73b56;*/
+  border-color: #3498db;
 }
 .copyright_text{
 padding-top: 80px;	
